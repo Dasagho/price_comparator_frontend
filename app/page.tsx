@@ -1,6 +1,7 @@
 'use client'
 import style from '@/app/page.module.css'
 import { useRouter } from 'next/navigation'
+import CoolCard from './components/cool-card/cool-card'
 
 export default function Home() {
   const router = useRouter()
@@ -17,14 +18,16 @@ export default function Home() {
     <main className={style.main}>
       <h1>Price comparator</h1>
       <section className={style.lists}>
-        <article className={style.card_wrapper} onClick={navigateToMercadona}>
-          <img src="/mercadona-vertical-card.png" />
-          <img src="/mercadona-logo.png" />
-        </article>
-        <article className={style.card_wrapper} onClick={navigateToConsum}>
-          <img src="/consum-vertical-card.png" />
-          <img src="/consum-logo.png" />
-        </article>
+        <CoolCard
+          cardUrl="/mercadona-vertical-card.png"
+          logoUrl="/mercadona-logo.png"
+          onClick={navigateToMercadona}
+        />
+        <CoolCard
+          cardUrl="/consum-vertical-card.png"
+          logoUrl="/consum-logo.png"
+          onClick={navigateToConsum}
+        />
       </section>
     </main>
   )
