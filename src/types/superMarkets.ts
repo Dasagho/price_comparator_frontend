@@ -1,5 +1,5 @@
 export enum SuperMarkets {
-    Mercadona = 'Mercadona',
-    Consum = 'Consum',
-    Lidl = 'Lidl'
+  Mercadona = 'Mercadona',
+  Consum = 'Consum',
+  Lidl = 'Lidl',
 }

@@ -1,6 +1,6 @@
-import ProductList from "@/app/components/ProductList/ProductList";
-import style from "@/app/page.module.css";
-import { SuperMarkets } from "@/src/types/superMarkets";
+import ProductList from '@/app/components/ProductList/ProductList'
+import style from '@/app/page.module.css'
+import { SuperMarkets } from '@/src/types/superMarkets'
 
 export default function Home() {
   return (
@@ -12,5 +12,5 @@ export default function Home() {
         <ProductList market={SuperMarkets.Lidl} />
       </section>
     </main>
-  );
+  )
 }

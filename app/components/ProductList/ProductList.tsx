@@ -1,7 +1,7 @@
-import { SuperMarkets } from "@/src/types/superMarkets";
-import style from "@/app/components/ProductList/ProductList.module.css";
+import { SuperMarkets } from '@/src/types/superMarkets'
+import style from '@/app/components/ProductList/ProductList.module.css'
 interface ProductListProps {
-  market: SuperMarkets;
+  market: SuperMarkets
 }
 
 export const ProductList: React.FC<ProductListProps> = ({ market }) => {
@@ -14,7 +14,7 @@ export const ProductList: React.FC<ProductListProps> = ({ market }) => {
         ))}
       </ul>
     </section>
-  );
-};
+  )
+}
 
-export default ProductList;
+export default ProductList
