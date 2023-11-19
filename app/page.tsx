@@ -1,15 +1,18 @@
-import ProductList from '@/app/components/ProductList/ProductList'
 import style from '@/app/page.module.css'
-import { SuperMarkets } from '@/src/types/superMarkets'
 
 export default function Home() {
   return (
     <main className={style.main}>
-      <h1>Comparador de precios</h1>
+      <h1>Price comparator</h1>
       <section className={style.lists}>
-        <ProductList market={SuperMarkets.Mercadona} />
-        <ProductList market={SuperMarkets.Consum} />
-        <ProductList market={SuperMarkets.Lidl} />
+        <article className={style.card_wrapper}>
+          <img src="/mercadona-vertical-card.png" />
+          <img src="/mercadona-logo.png" />
+        </article>
+        <article className={style.card_wrapper}>
+          <img src="/consum-vertical-card.png" />
+          <img src="/consum-logo.png" />
+        </article>
       </section>
     </main>
   )
