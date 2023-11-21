@@ -4,12 +4,11 @@ import style from './cool-card.module.css'
 interface CoolCardProps {
   logoUrl: string
   cardUrl: string
-  onClick: () => void
 }
 
-const CoolCard: React.FC<CoolCardProps> = ({ logoUrl, cardUrl, onClick }) => {
+const CoolCard: React.FC<CoolCardProps> = ({ logoUrl, cardUrl }) => {
   return (
-    <article className={style.card_wrapper} onClick={onClick}>
+    <article className={style.card_wrapper}>
       <img src={cardUrl} />
       <img src={logoUrl} />
     </article>
