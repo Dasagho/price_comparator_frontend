@@ -1,6 +1,6 @@
 'use client'
 import style from '@/app/page.module.css'
-import CoolCard from './components/cool-card/cool-card'
+import CoolCard from '../src/components/cool-card/cool-card'
 import Link from 'next/link'
 
 export default function Home() {

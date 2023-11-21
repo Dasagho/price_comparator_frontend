@@ -1,5 +1,6 @@
 import { SuperMarkets } from '@/src/types/superMarkets'
-import style from '@/app/components/ProductList/ProductList.module.css'
+import style from '@/src/components/ProductList/ProductList.module.css'
+
 interface ProductListProps {
   market: SuperMarkets
 }
