@@ -9,13 +9,13 @@ export default function Home() {
     <main className={style.main}>
       <h1>Price comparator</h1>
       <section className={style.lists}>
-        <Link href="/mercadona">
+        <Link href="/market/mercadona">
         <CoolCard
           cardUrl="/mercadona-vertical-card.png"
           logoUrl="/mercadona-logo.png"
         />
         </Link>
-        <Link href="/consum">
+        <Link href="/market/consum">
         <CoolCard
           cardUrl="/consum-vertical-card.png"
           logoUrl="/consum-logo.png"
