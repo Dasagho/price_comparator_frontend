@@ -1,4 +1,4 @@
-import { SuperMarkets } from '../types/superMarkets'
+import { SuperMarkets } from '@/src/types/superMarkets'
 
 export default interface Product {
   name: string
