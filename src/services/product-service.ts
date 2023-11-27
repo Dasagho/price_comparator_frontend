@@ -11,7 +11,7 @@ async function getProducts(
   limit: number = 20,
   offset: number = 0
 ): Promise<Product[]> {
-  const url = 'http://localhost:3001/product'
+  const url = `${process.env.NEXT_PUBLIC_BACKEND_ENDPOINT}/product`
   try {
     const response = await axios.get<Product[]>(url, {
       params: { limit, offset, supermarket },
