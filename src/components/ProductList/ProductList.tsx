@@ -23,10 +23,13 @@ export const ProductList: React.FC<ProductListProps> = ({ market }) => {
 
   return (
     <section className={style.list}>
-      <h3>{market}</h3>
       <ul>
         {products.map((product) => (
-          <li key={product.name}>{product.name}</li>
+          <li 
+            key={product.name}
+          >
+            {product.name}
+          </li>
         ))}
       </ul>
     </section>

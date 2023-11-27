@@ -1,5 +1,5 @@
 import ReturnButton from "@/src/components/return-button/ReturnButton";
-
+import style from './market.module.css'
 
 
 export default function MarketLayout({
@@ -8,9 +8,9 @@ export default function MarketLayout({
     children: React.ReactNode
   }) {
     return (
-      <section>
+      <main className={style.main}>
         <ReturnButton />
         {children}
-      </section>
+      </main>
     )
   }
