@@ -25,11 +25,7 @@ export const ProductList: React.FC<ProductListProps> = ({ market }) => {
     <section className={style.list}>
       <ul>
         {products.map((product) => (
-          <li 
-            key={product.name}
-          >
-            {product.name}
-          </li>
+          <li key={product._id}>{product.name}</li>
         ))}
       </ul>
     </section>
