@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductList from '@/src/components/ProductList/ProductList'
+import ProductList from '@/src/components/product-list/product-list'
 import { SuperMarkets } from '@/src/types/superMarkets'
 import style from '@/app/market/market.module.css'
 

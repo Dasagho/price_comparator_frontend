@@ -1,4 +1,4 @@
-import ReturnButton from "@/src/components/return-button/ReturnButton";
+import ReturnButton from "@/src/components/return-button/return-button";
 import style from './market.module.css'
 
 
