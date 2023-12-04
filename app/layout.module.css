@@ -1,0 +1,10 @@
+.nav_bar {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background: #584479;
+}
+
+.body {
+  height: calc(100vh - 5rem);
+}
