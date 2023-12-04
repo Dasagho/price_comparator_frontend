@@ -1,0 +1,17 @@
+.nav_bar {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  background: rgb(13, 79, 90);
+  padding: 1rem;
+}
+
+.application_title {
+  color: whitesmoke;
+  margin-right: 3rem;
+}
+
+.nav_item {
+  color: whitesmoke;
+  margin-right: 1rem;
+}

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import styles from './layout.module.css'
 import './globals.css'
+import TopMenu from '@/src/components/top-menu/top-menu'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +23,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body className={inter.className}>
-        <div className={styles.nav_bar}></div>
+        <TopMenu />
         <div className={styles.body}>{children}</div>
       </body>
     </html>
