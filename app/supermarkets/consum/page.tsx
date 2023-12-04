@@ -1,7 +1,7 @@
 import React from 'react'
 import ProductList from '@/src/components/product-list/product-list'
 import { SuperMarkets } from '@/src/types/superMarkets'
-import style from '@/app/market/market.module.css'
+import style from '@/app/supermarkets/supermarkets.module.css'
 
 export default function Consum() {
   return (

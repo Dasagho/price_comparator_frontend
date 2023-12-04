@@ -6,13 +6,13 @@ import style from './supermarkets.module.css'
 const Supermarkets: React.FC = () => {
   return (
     <div className={style.lists}>
-      <Link href="/market/mercadona">
+      <Link href="/supermarkets/mercadona">
         <CoolCard
           cardUrl="/mercadona-vertical-card.png"
           logoUrl="/mercadona-logo.png"
         />
       </Link>
-      <Link href="/market/consum">
+      <Link href="/supermarkets/consum">
         <CoolCard
           cardUrl="/consum-vertical-card.png"
           logoUrl="/consum-logo.png"
