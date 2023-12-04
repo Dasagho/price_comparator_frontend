@@ -2,16 +2,17 @@
   height: 5rem;
   display: flex;
   align-items: center;
-  background: rgb(13, 79, 90);
+  background-color: var(--background-color);
+  border-bottom: solid var(--primary-color);
   padding: 1rem;
 }
 
 .application_title {
-  color: whitesmoke;
+  color: var(--text-color);
   margin-right: 3rem;
 }
 
 .nav_item {
-  color: whitesmoke;
+  color: var(--text-color);
   margin-right: 1rem;
 }

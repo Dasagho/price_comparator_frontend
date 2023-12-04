@@ -5,9 +5,7 @@
 }
 
 body {
-  background-image: url('/bg-app.jpeg');
-  background-size: cover;
-  background-position: center;
+  background-color: var(--background-color);
 }
 
 :root {
