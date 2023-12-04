@@ -9,3 +9,11 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+:root {
+  --text-color: #060e01;
+  --background-color: #f7fef3;
+  --primary-color: #65f120;
+  --secondary-color: #86f8d0;
+  --accent-color: #56f5f2;
+}
