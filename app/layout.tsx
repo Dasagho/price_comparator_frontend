@@ -3,8 +3,6 @@ import { Inter } from 'next/font/google'
 import styles from './layout.module.css'
 import './globals.css'
 import TopMenu from '@/src/components/top-menu/top-menu'
-import { usePathname } from 'next/navigation'
-import ReturnButton from '@/src/components/return-button/return-button'
 
 const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
@@ -25,7 +23,6 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <TopMenu />
-        <ReturnButton />
         <main className={styles.body}>{children}</main>
       </body>
     </html>

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './top-menu.module.css'
 import Link from 'next/link'
+import ReturnButton from '../return-button/return-button'
 
 const TopMenu: React.FC = () => {
   const items: NavigatorItem[] = [
@@ -21,6 +22,7 @@ const TopMenu: React.FC = () => {
           </Link>
         ))}
       </nav>
+      <ReturnButton />
     </header>
   )
 }
