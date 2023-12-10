@@ -3,9 +3,10 @@ import { Inter } from 'next/font/google'
 import styles from './layout.module.css'
 import './globals.css'
 import TopMenu from '@/src/components/top-menu/top-menu'
+import { usePathname } from 'next/navigation'
+import ReturnButton from '@/src/components/return-button/return-button'
 
 const inter = Inter({ subsets: ['latin'] })
-
 export const metadata: Metadata = {
   title: 'Comparador de precios',
   description: 'Un comparador de precios de productos de supermercados',
@@ -24,7 +25,8 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <TopMenu />
-        <div className={styles.body}>{children}</div>
+        <ReturnButton />
+        <main className={styles.body}>{children}</main>
       </body>
     </html>
   )

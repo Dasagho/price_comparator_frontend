@@ -8,7 +8,6 @@ export default function MarketLayout({
 }) {
   return (
     <main className={style.main}>
-      <ReturnButton />
       {children}
     </main>
   )

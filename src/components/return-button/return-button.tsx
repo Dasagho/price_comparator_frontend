@@ -1,6 +1,11 @@
+'use client'
+
 import Link from "next/link"
 import style from "./return.module.css"
+import { usePathname } from "next/navigation"
 const ReturnButton: React.FC = () => {
+    const path = usePathname();
+    if (path === '/') return;
     return (
         <Link href="/" className={style.return}>
             <svg width="48px" height="48px" strokeWidth="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">

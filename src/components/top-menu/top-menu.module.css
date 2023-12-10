@@ -1,4 +1,4 @@
-.nav_bar {
+.header {
   height: 5rem;
   display: flex;
   align-items: center;
@@ -7,12 +7,17 @@
   padding: 1rem;
 }
 
+.nav_bar {
+  display: flex;
+}
+
 .application_title {
   color: var(--text-color);
-  margin-right: 3rem;
+  margin-right: 1.5rem;
 }
 
 .nav_item {
   color: var(--text-color);
+  text-decoration: none;
   margin-right: 1rem;
 }
