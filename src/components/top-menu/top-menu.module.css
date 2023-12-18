@@ -1,0 +1,26 @@
+.header {
+  position: relative;
+  height: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--background-color);
+  border-bottom: solid var(--primary-color);
+  padding: 1rem;
+}
+
+.nav_bar {
+  display: flex;
+  flex-basis: 70%;
+}
+
+.application_title {
+  color: var(--text-color);
+  margin-right: 1.5rem;
+}
+
+.nav_item {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-right: 1rem;
+}

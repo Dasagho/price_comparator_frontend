@@ -4,12 +4,5 @@
   justify-content: space-around;
   align-items: center;
   padding: 2rem;
-  min-height: 100vh;
-}
-
-.lists {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 5rem;
+  height: inherit;
 }

@@ -1,5 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+:root {
+  --text-color: #060e01;
+  --background-color: #f7fef3;
+  --primary-color: #65f120;
+  --secondary-color: #86f8d0;
+  --accent-color: #56f5f2;
 }
